@@ -20,4 +20,22 @@ git clone <your-repository-url>
 cd <your-project-directory>
 ```
 
-### 2. Restore D
+### 2. Restore Dependency
+```bash
+dotnet restore
+```
+
+### 3. Migration database
+```bash
+dotnet ef migrations add <name-migrate>
+```
+
+### 4. Update Database
+```bash
+dotnet ef database update
+```
+
+### 5. Build and release
+```bash
+dotnet build -c release
+```
