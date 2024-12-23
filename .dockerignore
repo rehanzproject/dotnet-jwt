@@ -1,0 +1,35 @@
+# Ignore node_modules (for frontend or Node.js apps)
+node_modules
+
+# Ignore build and debug directories
+bin/
+obj/
+out/
+
+# Ignore .NET user-specific files
+*.user
+*.suo
+*.csproj.user
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled binaries
+*.dll
+*.exe
+
+# Ignore configuration files that should not be in the image
+appsettings.*.json
+.env
+
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore Docker-related files
+.dockerignore
+docker-compose.override.yml

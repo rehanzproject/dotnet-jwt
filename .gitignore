@@ -1,0 +1,56 @@
+# .NET build output
+bin/
+obj/
+out/
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# User-specific configurations
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Package directories
+.nuget/
+
+# Logs
+*.log
+
+# ASP.NET Core secrets
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Environment variables
+.env
+
+# DotNet restore folder
+packages/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# OSX files
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# JetBrains Rider IDE files
+.idea/
+
+# VSCode settings
+.vscode/
+
+# NPM package-lock files (if you are using NPM)
+package-lock.json
+
+# npm dependencies
+node_modules/
